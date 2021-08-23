@@ -1,1 +1,11 @@
 # Critica Collaborative Filtering Recommender Systems
+
+El Paper nos muestra desde lo mas simple y basico como los posibles usos que existen para estos sistemas, hasta temas mas especificos como lo serian los metodos de obtencion de datos, algoritmos y metricas relacionados al sistema. En cuanto a sus usos nos presenta la recomendacion de items en relacion a mis gustos, los de los demas, tareas a realizar, entre otros, pero principalmente se utiliza en la recomendacion mediante relacion de items-usuarios, usuario-usuario o item-item. Separa los tipos de algoritmos en 2 categorias los probabilisticos y los no probabilisticos sindo la principal diferencia la entrega de un valor puntual (no probabilistico) o la entrega de la probabilidad de cada posible rating que el usuario podria dar. El paper presenta principalmente dos tipos de datos los explicitos que son cuando el usuario entrega una buena descripcion de sus preferencias con la menor cantidad de datos o implicitos que son cuando mediante diferentes medidas, no dadas por el usuario directamente, se genera un perfil de preferencias. Tras describir los tipos de datos y su obtencion se presentan formas de evualar la correctitud del sistema mediante diferentes metricas las cuales varian desde funcionalidad hasta inovacion en el tipo de recomendacion. En si es un Texto bien explicado y capaz de dejar a una persona que no sabe absolutamente nada del tema con un conocimientos basicos bueno e incluso con un buen dominio de aspectos mas especificos del tema, ya que pinta una imagen sobre el tema y se adentra en algunos puntos claves de este.
+
+Un aspecto que encontre interesante de este Paper es una mtreica en especifico que se menciona en la seccion 9.5.2 esta metrica es la de *serendipity*, la cual trata sobre que el sistema sea capaz de entregar recomendaciones que esten fuera de mis gustos pero que aun asi sean interesantes. Al leer esta metrica no pude dejar de pensar en la clasica opcion de *"you might like"* que se puede encontrar en diferentes aplicaciones de compra y venta o servicios de streaming de peliculas como netflix, disney u otros y como esta suele presentar opciones relacionadas a tus gustos pero no principalmente temas o generos nuevos. 
+
+serendipity novedad nunca antes vista ni oensada previamente
+
+dramas iniciales
+
+fake reviews
